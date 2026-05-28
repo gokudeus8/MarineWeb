@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Troque o título abaixo pelo título do seu texto -->
+  <title>o que eu aprendi sobre silêncio — Marino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Marino</a>
+    <div class="nav-links">
+      <a href="fotos.html">fotos</a>
+      <a href="escrever.html" class="active">escritos</a>
+      <a href="sobre.html">sobre</a>
+    </div>
+  </nav>
+
+  <article class="post-page">
+
+    <!-- CABEÇALHO DO POST -->
+    <div class="post-meta">
+      <!-- Categoria: reflexão / história / pensamento / diário / etc -->
+      <span class="post-category">reflexão</span>
+      <h1 class="post-title">o que eu aprendi sobre silêncio</h1>
+      <span class="post-date">28 maio, 2026</span>
+    </div>
+
+    <div class="post-divider"></div>
+
+    <!-- ════════════════════════════════════════════════
+         CORPO DO TEXTO
+         
+         Elementos disponíveis:
+         
+         <p>         → parágrafo normal
+                       (o primeiro parágrafo ganha letra capitular automática)
+         
+         <em>        → itálico com fonte elegante
+         
+         <blockquote>→ citação destacada com linha lateral
+         
+         <div class="post-img">
+           <img src="fotos/foto.jpg" alt="">
+           <p class="img-caption">legenda</p>
+         </div>           → foto dentro do texto (largura do post)
+         
+         <div class="post-img full-width">
+           <img src="fotos/foto.jpg" alt="">
+         </div>           → foto que "estoura" para as bordas (mais dramático)
+         
+         ════════════════════════════════════════════════ -->
+    <div class="post-content">
+
+      <p>
+        Tem dias que a cidade toda fala e você não ouve nada. Não porque está distraído — mas porque decidiu, de alguma forma, não estar lá. O silêncio que aprendi não é o silêncio de quem foge. É o de quem escolhe onde coloca a atenção.
+      </p>
+
+      <!-- Foto dentro do post -->
+      <div class="post-img">
+        <img src="fotos/foto1.jpg" alt="descrição da foto">
+        <p class="img-caption">legenda opcional — São Paulo, maio 2026</p>
+      </div>
+
+      <p>
+        Existe uma diferença entre estar quieto e estar presente. Durante muito tempo confundi os dois. Achei que silêncio era ausência — que não falar era não existir. Mas aprendi que é ao contrário. <em>O silêncio mais denso é o de quem tem muito a dizer e escolhe não dizer agora.</em>
+      </p>
+
+      <!-- Citação destacada -->
+      <blockquote>
+        às vezes a coisa mais honesta que você pode fazer é não dizer nada.
+      </blockquote>
+
+      <p>
+        São Paulo não facilita isso. A cidade te oferece barulho como desculpa. Mas quando você para de usar o barulho como refúgio, o silêncio vira uma escolha. E aí começa a ser seu.
+      </p>
+
+      <!-- Foto que ocupa toda a largura -->
+      <div class="post-img full-width">
+        <img src="fotos/foto2.jpg" alt="">
+      </div>
+
+      <p>
+        Não sei se aprendi. Aprendo. É um processo lento e às vezes inconveniente. Mas é o único que parece honesto.
+      </p>
+
+    </div>
+
+    <!-- Navegação entre posts -->
+    <div class="post-nav">
+      <a href="escrever.html">← voltar para escritos</a>
+      <a href="#">próximo →</a>
+    </div>
+
+  </article>
+
+  <footer>
+    <span>Marino © 2026</span>
+    <div class="footer-links">
+      <a href="https://vsco.co/marinohs" target="_blank">vsco</a>
+    </div>
+  </footer>
+
+</body>
+</html>
